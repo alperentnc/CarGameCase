@@ -21,7 +21,7 @@ public class HealthController : MonoBehaviour
     public void DecreaseHealth(int damage)
     {
         health -= damage;
-        if (health <= 0) { health = 0; Time.timeScale = 0f; scoreManager.UpdateHighScore(); gameOverManager.GameOver(); }
+        if (health <= 0) { health = 0; Time.timeScale = 0f; scoreManager.UpdateHighScore(); gameOverManager.GameOver(); gameOverManager.CurrentScore(scoreManager.score); }
         healthText.text = health.ToString();
     }
 }
