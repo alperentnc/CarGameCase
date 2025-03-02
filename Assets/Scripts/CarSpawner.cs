@@ -8,7 +8,7 @@ public class CarSpawner : MonoBehaviour
     public float spawnInterval;
     public Transform player;
     public float despawnDistance;
-    private float firstCarPosition;
+    private float carSpawnPosition;
     private Queue<GameObject> carPool = new Queue<GameObject>();
 
     private void Start()
@@ -20,13 +20,13 @@ public class CarSpawner : MonoBehaviour
             car.SetActive(false);
             carPool.Enqueue(car);
         }
-        firstCarPosition = Random.Range(40f, 60f);
+        carSpawnPosition = Random.Range(40f, 60f);
         SpawnCar();
     }
 
     private void Update()
     {
-        if (player.position.z >= spawnInterval && firstCarPosition < player.position.z + 270f)
+        if (player.position.z >= spawnInterval && carSpawnPosition < player.position.z + 270f)
         {
             spawnInterval += 20;
             SpawnCar();
@@ -43,13 +43,13 @@ public class CarSpawner : MonoBehaviour
         float RandomNumber = Random.Range(0, 2);
         if(RandomNumber == 0)
         {
-            car.transform.position = new Vector3(2, 0, firstCarPosition);
-            firstCarPosition += Random.Range(20f, 80f);
+            car.transform.position = new Vector3(2, 0, carSpawnPosition);
+            carSpawnPosition += Random.Range(20f, 80f);
         }
         else
         {
-            car.transform.position = new Vector3(-2, 0, firstCarPosition);
-            firstCarPosition += Random.Range(20f, 80f);
+            car.transform.position = new Vector3(-2, 0, carSpawnPosition);
+            carSpawnPosition += Random.Range(20f, 80f);
         }
         
         car.SetActive(true);

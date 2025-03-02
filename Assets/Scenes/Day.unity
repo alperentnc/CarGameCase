@@ -521,12 +521,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 50.31
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50.31
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -837,10 +837,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -1030,10 +1030,10 @@ RectTransform:
   - {fileID: 246820790}
   m_Father: {fileID: 476825235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.12187538, y: 0.35764077}
-  m_AnchorMax: {x: 0.86275077, y: 0.76016057}
-  m_AnchoredPosition: {x: 9.572937, y: -6.454468}
-  m_SizeDelta: {x: -34.850006, y: -4.357666}
+  m_AnchorMin: {x: 0.1382025, y: 0.35764077}
+  m_AnchorMax: {x: 0.86275077, y: 0.75584096}
+  m_AnchoredPosition: {x: -0.927063, y: -0.45446777}
+  m_SizeDelta: {x: -13.850006, y: 7.642334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496061665
 MonoBehaviour:
@@ -1332,10 +1332,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 476825235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409, y: 1115.9844}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.1382025, y: 0.8838071}
+  m_AnchorMax: {x: 0.21642369, y: 0.92}
+  m_AnchoredPosition: {x: 3, y: -1.515625}
+  m_SizeDelta: {x: 4, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734580653
 MonoBehaviour:
@@ -1639,10 +1639,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 476825235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.23745172, y: 0.86772}
-  m_AnchorMax: {x: 0.3956636, y: 0.94200003}
-  m_AnchoredPosition: {x: -6.460022, y: -8.126831}
-  m_SizeDelta: {x: 6.2369003, y: -9.368698}
+  m_AnchorMin: {x: 0.22967291, y: 0.86772}
+  m_AnchorMax: {x: 0.39254832, y: 0.9362801}
+  m_AnchoredPosition: {x: 0.539978, y: -0.12683105}
+  m_SizeDelta: {x: 0.23690033, y: 6.631302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1112913609
 MonoBehaviour:
@@ -1691,10 +1691,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -1937,7 +1937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roadPrefab: {fileID: 7475571078079330529, guid: ae2501f42bb7c5f4ca09492e3a4b642e, type: 3}
-  roadCount: 50
+  roadCount: 30
   roadLength: 12
 --- !u!4 &1682868707
 Transform:
@@ -1987,10 +1987,10 @@ RectTransform:
   - {fileID: 377954704}
   m_Father: {fileID: 496061664}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.27400002, y: 0.6118177}
-  m_AnchorMax: {x: 0.74345595, y: 0.717}
-  m_AnchoredPosition: {x: -6.275818, y: 21}
-  m_SizeDelta: {x: 290.30768, y: 59.360413}
+  m_AnchorMin: {x: 0.11063543, y: 0.60463536}
+  m_AnchorMax: {x: 0.89764315, y: 0.7501824}
+  m_AnchoredPosition: {x: -1.7758179, y: 6.5}
+  m_SizeDelta: {x: -0.6923218, y: 14.360413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701382949
 MonoBehaviour:
@@ -2039,7 +2039,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.15
+  m_fontSize: 44.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2125,7 +2125,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15611528, y: 0.8277999}
   m_AnchorMax: {x: 0.6253459, y: 0.86772}
-  m_AnchoredPosition: {x: -1.5538635, y: -2.7104492}
+  m_AnchoredPosition: {x: -1.553833, y: -2.7104492}
   m_SizeDelta: {x: 0.8824005, y: -0.40999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899666348
@@ -2311,12 +2311,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 50.6
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50.6
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512

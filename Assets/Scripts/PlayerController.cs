@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float swipeSensitivity = Screen.width/10;
+    private float swipeSensitivity = Screen.width/20;
     private float forwardSpeed = 20f;
     private float rotationSpeed = 10f;
     private float rotationOffset = 0.15f;
@@ -97,6 +97,14 @@ public class PlayerController : MonoBehaviour
     }
     public void SpeedBooster()
     {
-        forwardSpeed *= 1.2f;
+        if(forwardSpeed <= 100)
+        {
+            forwardSpeed *= 1.2f;
+        }
+        else
+        {
+            forwardSpeed *= 1.05f;
+        }
+
     }
 }

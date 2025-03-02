@@ -9,8 +9,11 @@ public class ScoreManager : MonoBehaviour
     public TMP_Text bestScoreText;
     private void Awake()
     {
-        PlayerPrefs.GetInt("highscore", 0);
-        bestScoreText.text = "TOP SCORE :" + Mathf.Pow(2, PlayerPrefs.GetInt("highscore")).ToString() + "M";
+        PlayerPrefs.GetInt("highscore",0);
+        if(PlayerPrefs.GetInt("highscore") != 0)
+        {
+            bestScoreText.text = "TOP SCORE :" + Mathf.Pow(2, PlayerPrefs.GetInt("highscore")).ToString();
+        }
     }
     public void IncreaseScore()
     {
