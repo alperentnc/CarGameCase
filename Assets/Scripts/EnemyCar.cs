@@ -20,7 +20,7 @@ public class EnemyCar : MonoBehaviour
     }
     void Start()
     {
-        Debug.Log(scoreManager.score);
+
     }
     private void OnEnable()
     {
